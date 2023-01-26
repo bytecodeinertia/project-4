@@ -1,16 +1,33 @@
 body{background-color: rgb(233, 252, 252);
     text-align: center;
-
+   margin: 0%;
 }
-.content1{border: 1px solid;
-         border-radius: 5px;
-         height: 80px;
-
-}
-#one{border: 1px solid;
+.container{
+    border: 2px solid;
     border-radius: 5px;
-   
-
+    height: 40pc;
+    width: 45pc;
+    padding: 5%;
+    margin: 5%;
+    border-style: double;
+    background-color: rgb(223, 248, 233);
+    opacity: 85%;
 }
-
+.main{position: relative;
     
+}
+#a{background-color: rgb(24, 24, 241);
+   font:small-caption;
+   color: aliceblue;
+}
+input{ border: 2px solid;
+       height: 50px;
+       text-align: center;
+}
+button{
+   background-color: rgb(10, 10, 190);
+   font: small-caption;
+   color: beige;
+   border: 2px solid;
+   height: 50px;
+}
